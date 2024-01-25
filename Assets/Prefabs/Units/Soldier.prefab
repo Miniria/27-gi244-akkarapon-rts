@@ -5139,6 +5139,8 @@ GameObject:
   - component: {fileID: 9571380}
   - component: {fileID: 6147622609702937973}
   - component: {fileID: 992790190989452002}
+  - component: {fileID: -1757763766645764567}
+  - component: {fileID: 6150415434879830677}
   m_Layer: 0
   m_Name: Soldier
   m_TagString: Untagged
@@ -5187,7 +5189,7 @@ Animator:
   m_GameObject: {fileID: 186328}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 409520c9226982345a49c9803624f208, type: 3}
-  m_Controller: {fileID: 9100000, guid: 9b5f3dc79387670409bc8aac8597ddd2, type: 2}
+  m_Controller: {fileID: 9100000, guid: f05d2198490634347a20cd93617aca44, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -5243,6 +5245,44 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &-1757763766645764567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e471318f315bc4b8074fc2826d86d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  unitName: 
+  unitPic: {fileID: 0}
+  curHP: 0
+  maxHP: 100
+  moveSpeed: 5
+  minWpnDamage: 0
+  maxWpnDamage: 0
+  armour: 0
+  visualRange: 0
+  weaponRange: 0
+  state: 0
+  faction: {fileID: 0}
+  selectionVisual: {fileID: 0}
+--- !u!114 &6150415434879830677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eedd6bd202f1fde46aa234d411b25074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &186630
 GameObject:
   m_ObjectHideFlags: 0
