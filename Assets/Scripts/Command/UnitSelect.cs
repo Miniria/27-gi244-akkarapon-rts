@@ -13,16 +13,14 @@ public class UnitSelect : MonoBehaviour
 
     private Camera cam;
     private Faction faction;
-
+    
     public static UnitSelect instance;
 
-    
     void Awake()
     {
         faction = GetComponent<Faction>();
     }//awake
-
-    // Start is called before the first frame update
+    
     void Start()
     {
         cam = Camera.main;
@@ -84,6 +82,5 @@ public class UnitSelect : MonoBehaviour
         ClearAllSelectionVisual();
         curUnit = null;
     }
-    
     
 }//unit select
