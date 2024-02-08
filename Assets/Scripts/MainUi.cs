@@ -12,11 +12,11 @@ public class MainUi : MonoBehaviour
         get { return selectionMarker; }
     }
     
-    [SerializeField] private TextMeshPro unitCountText;
-    [SerializeField] private TextMeshPro foodText;
-    [SerializeField] private TextMeshPro woodText;
-    [SerializeField] private TextMeshPro goldText;
-    [SerializeField] private TextMeshPro stoneText;
+    [SerializeField] private TextMeshProUGUI unitCountText;
+    [SerializeField] private TextMeshProUGUI foodText;
+    [SerializeField] private TextMeshProUGUI woodText;
+    [SerializeField] private TextMeshProUGUI goldText;
+    [SerializeField] private TextMeshProUGUI stoneText;
     
     public static MainUi instance;
 
