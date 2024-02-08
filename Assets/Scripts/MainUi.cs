@@ -5,12 +5,6 @@ using UnityEngine;
 
 public class MainUi : MonoBehaviour
 {
-    [SerializeField] private GameObject selectionMaker;
-    public GameObject SelectionMaker
-    {
-        get { return selectionMaker; }
-    }
-
     public static MainUi instance;
 
     private void Awake()
