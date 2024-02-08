@@ -6,10 +6,12 @@ using TMPro;
 
 public class MainUi : MonoBehaviour
 {
-
-
-
-
+    [SerializeField] private GameObject selectionMarker;
+    public GameObject SelectionMarker
+    {
+        get { return selectionMarker; }
+    }
+    
     [SerializeField] private TextMeshPro unitCountText;
     [SerializeField] private TextMeshPro foodText;
     [SerializeField] private TextMeshPro woodText;
