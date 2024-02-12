@@ -29,6 +29,9 @@ public class Building : Structure
     {
         if (Input.GetKeyDown(KeyCode.G))
             ToCreateUnit(0);
+        
+        if (Input.GetKeyDown(KeyCode.H))
+            ToCreateUnit(1);
 
         if ((recruitList.Count > 0) && (recruitList[0] != null))
         {
@@ -60,7 +63,7 @@ public class Building : Structure
             return;
 
         Unit unit = unitPrefabs[i].GetComponent<Unit>();
-
+        
         if (unit == null) 
             return;
 
@@ -76,17 +79,17 @@ public class Building : Structure
 
         //Add unit into faction's recruit list
         recruitList.Add(unit);
-
         Debug.Log("Adding" + i + "to Recruit List");
     }
     
     public void CreateUnitCompleted()
     {
         int id = recruitList[0].ID;
-
         if (unitPrefabs[id] == null)
             return;
-
+        ///f u unity
+        
+        
         GameObject unitObj = Instantiate(unitPrefabs[id], spawnPoint.position, Quaternion.Euler(0f, 180f, 0f));
 
         recruitList.RemoveAt(0);
