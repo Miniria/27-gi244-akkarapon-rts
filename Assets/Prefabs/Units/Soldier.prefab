@@ -5261,7 +5261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   unitName: Soldier
-  unitPic: {fileID: 0}
+  unitPic: {fileID: 21300000, guid: fda389517d3f10345b7fbae0af186e88, type: 3}
   curHP: 100
   maxHP: 100
   moveSpeed: 5
