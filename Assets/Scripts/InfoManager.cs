@@ -17,32 +17,6 @@ public class InfoManager : MonoBehaviour
         unitPic.sprite = pic;
     }
     
-    public void ClearAllInfo()
-    {
-        //Clear Pic
-        unitPic.color = Color.clear;
-        nameTxt.text = "";
-
-        hpIcon.color = Color.clear;
-        hpTxt.text = "";
-
-        moveIcon.color = Color.clear;
-        moveTxt.text = "";
-
-        atkIcon.color = Color.clear;
-        atkTxt.text = "";
-
-        amrIcon.color = Color.clear;
-        amrTxt.text = "";
-
-        vslRngIcon.color = Color.clear;
-        vslRngTxt.text = "";
-
-        wpRngIcon.color = Color.clear;
-        wpRngTxt.text = "";
-    }
-    
-    
     public void ShowAllInfo(Unit unit)
     {
         SetPic(unit.UnitPic);
@@ -67,6 +41,30 @@ public class InfoManager : MonoBehaviour
         wpRngTxt.text = $"{unit.WeaponRange}";
     }
     
+    public void ClearAllInfo()
+    {
+        //Clear Pic
+        unitPic.color = Color.clear;
+        nameTxt.text = "";
+
+        hpIcon.color = Color.clear;
+        hpTxt.text = "";
+
+        moveIcon.color = Color.clear;
+        moveTxt.text = "";
+
+        atkIcon.color = Color.clear;
+        atkTxt.text = "";
+
+        amrIcon.color = Color.clear;
+        amrTxt.text = "";
+
+        vslRngIcon.color = Color.clear;
+        vslRngTxt.text = "";
+
+        wpRngIcon.color = Color.clear;
+        wpRngTxt.text = "";
+    }
     
     private void Awake()
     {
