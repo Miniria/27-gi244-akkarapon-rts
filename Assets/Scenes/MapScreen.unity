@@ -990,6 +990,18 @@ PrefabInstance:
       propertyPath: nation
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5462012479784162123, guid: 03c038ee146f7f84d9491cca1247a959, type: 3}
+      propertyPath: aliveBuildings.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -5462012479784162123, guid: 03c038ee146f7f84d9491cca1247a959, type: 3}
+      propertyPath: aliveBuildings.Array.data[0]
+      value: 
+      objectReference: {fileID: 1097062623}
+    - target: {fileID: -5462012479784162123, guid: 03c038ee146f7f84d9491cca1247a959, type: 3}
+      propertyPath: aliveBuildings.Array.data[1]
+      value: 
+      objectReference: {fileID: 1486780656}
     - target: {fileID: 249909449958935880, guid: 03c038ee146f7f84d9491cca1247a959, type: 3}
       propertyPath: m_Name
       value: Britain
@@ -1071,6 +1083,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   curUnit: {fileID: 0}
+  curBuilding: {fileID: 0}
 --- !u!114 &311522071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3243,6 +3256,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1086565943}
   m_CullTransparentMesh: 1
+--- !u!114 &1097062623 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4749504387127144446, guid: de64073ddd69547439887a34ab2bd79b, type: 3}
+  m_PrefabInstance: {fileID: 242594821}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe3dc6f7fe24aba40aeb89cb7de8a02b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1110687516
 GameObject:
   m_ObjectHideFlags: 0
@@ -4314,6 +4338,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459660194}
   m_CullTransparentMesh: 1
+--- !u!1 &1486780654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 554622273761590407, guid: f70a1fa0d71e7f341be13e2d76ae7ce5, type: 3}
+  m_PrefabInstance: {fileID: 1924565051}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1486780656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486780654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe3dc6f7fe24aba40aeb89cb7de8a02b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  structureName: 
+  structurePic: {fileID: 0}
+  curHP: 0
+  maxHP: 0
+  faction: {fileID: 0}
+  selectionVisual: {fileID: 0}
+  spawnPoint: {fileID: 0}
+  rallyPoint: {fileID: 0}
+  unitPrefabs: []
+  recruitList: []
+  unitTimer: 0
+  curUnitProgress: 0
+  curUnitWaitTime: 0
 --- !u!1 &1499974675
 GameObject:
   m_ObjectHideFlags: 0
@@ -5293,7 +5347,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 554622273761590407, guid: f70a1fa0d71e7f341be13e2d76ae7ce5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1486780656}
   m_SourcePrefab: {fileID: 100100000, guid: f70a1fa0d71e7f341be13e2d76ae7ce5, type: 3}
 --- !u!1 &1985264241
 GameObject:
