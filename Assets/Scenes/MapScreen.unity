@@ -4592,6 +4592,7 @@ GameObject:
   - component: {fileID: 1509288897}
   - component: {fileID: 1509288899}
   - component: {fileID: 1509288898}
+  - component: {fileID: 1509288900}
   m_Layer: 5
   m_Name: InfoPanel
   m_TagString: Untagged
@@ -4658,6 +4659,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509288896}
   m_CullTransparentMesh: 1
+--- !u!114 &1509288900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509288896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c45be42ae68474d409643b8ca57d2468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitPic: {fileID: 2112405300}
+  hpIcon: {fileID: 122837913}
+  rsrcIcon: {fileID: 1053086048}
+  moveIcon: {fileID: 791788170}
+  atkIcon: {fileID: 0}
+  amrIcon: {fileID: 0}
+  vslRngIcon: {fileID: 0}
+  wpRngIcon: {fileID: 0}
+  nameTxt: {fileID: 1499974677}
+  hpTxt: {fileID: 0}
+  rsrcTxt: {fileID: 0}
+  moveTxt: {fileID: 0}
+  atkTxt: {fileID: 0}
+  amrTxt: {fileID: 0}
+  vslRngTxt: {fileID: 0}
+  wpRngTxt: {fileID: 0}
 --- !u!1 &1510081627
 GameObject:
   m_ObjectHideFlags: 0
