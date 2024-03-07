@@ -1225,7 +1225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4749504387127144446, guid: de64073ddd69547439887a34ab2bd79b, type: 3}
       propertyPath: unitPrefabs.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4749504387127144446, guid: de64073ddd69547439887a34ab2bd79b, type: 3}
       propertyPath: unitPrefabs.Array.data[0]
@@ -1235,6 +1235,10 @@ PrefabInstance:
       propertyPath: unitPrefabs.Array.data[1]
       value: 
       objectReference: {fileID: 154498, guid: 3df5c9fef86db1e418b9687ade2c143b, type: 3}
+    - target: {fileID: 4749504387127144446, guid: de64073ddd69547439887a34ab2bd79b, type: 3}
+      propertyPath: unitPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 154498, guid: b9a15213dd3d2974e9ca074651a5e3e0, type: 3}
     - target: {fileID: 6924996812464630111, guid: de64073ddd69547439887a34ab2bd79b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.31
