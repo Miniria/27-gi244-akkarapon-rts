@@ -23,6 +23,13 @@ public class Building : Structure
     [SerializeField] private float curUnitWaitTime = 0f;
 
     [SerializeField] private bool isFunctional;
+
+    [SerializeField] private bool isHQ;
+    public bool IsHQ { get { return isHQ; } }
+    
+    // how deep into the ground the building is at the construction site
+    [SerializeField] private float intoTheGround = 5f;
+    public float IntoTheGround { get { return intoTheGround; } }
     public bool IsFunctional
     {
         get { return isFunctional; }
@@ -32,7 +39,7 @@ public class Building : Structure
     // Start is called before the first frame update
     void Start()
     {
-        curHP = maxHP;
+        
     }
 
     // Update is called once per frame

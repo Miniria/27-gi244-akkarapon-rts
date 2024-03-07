@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ActionPanel : MonoBehaviour
+public class ActionManager : MonoBehaviour
 {
     [SerializeField] private Button[] unitBtns;
     [SerializeField] private Button[] buildingBtns;
 
     private CanvasGroup cg;
     
-    public static ActionPanel instance;
+    public static ActionManager instance;
     
     private void Awake()
     {
