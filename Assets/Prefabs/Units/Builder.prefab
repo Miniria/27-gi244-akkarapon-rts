@@ -182,6 +182,7 @@ MonoBehaviour:
   showGhost: 0
   buildingList:
   - {fileID: 2321415789131306761, guid: de64073ddd69547439887a34ab2bd79b, type: 3}
+  - {fileID: 2321415789131306761, guid: d1811bb0dfd006d4db8eb9a625c46f0c, type: 3}
   ghostBuildingList:
   - {fileID: 2321415789131306761, guid: 38e39db20731b1942a237a2e40bd8c6f, type: 3}
   newBuilding: {fileID: 0}
