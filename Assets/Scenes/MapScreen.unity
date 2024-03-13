@@ -5957,9 +5957,17 @@ PrefabInstance:
       value: House
       objectReference: {fileID: 0}
     - target: {fileID: 4749504387127144446, guid: d1811bb0dfd006d4db8eb9a625c46f0c, type: 3}
+      propertyPath: isHQ
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749504387127144446, guid: d1811bb0dfd006d4db8eb9a625c46f0c, type: 3}
       propertyPath: faction
       value: 
       objectReference: {fileID: 311522072}
+    - target: {fileID: 4749504387127144446, guid: d1811bb0dfd006d4db8eb9a625c46f0c, type: 3}
+      propertyPath: intoTheGround
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6924996812464630111, guid: d1811bb0dfd006d4db8eb9a625c46f0c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.2
