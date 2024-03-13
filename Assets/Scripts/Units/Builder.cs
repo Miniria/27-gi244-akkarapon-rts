@@ -35,4 +35,67 @@ public class Builder : MonoBehaviour
     {
         
     }
+    
+    public void ToCreateNewBuilding(int i) //Start call from ActionManager UI Btns
+    {
+        if (buildingList[i] == null)
+            return;
+
+        Building b = buildingList[i].GetComponent<Building>();
+
+        if (!unit.Faction.CheckBuildingCost(b)) //don't have enough resource to build
+            return;
+        else
+        {
+            //Create ghost building at the mouse position
+            ghostBuilding = Instantiate(ghostBuildingList[i],
+                Input.mousePosition,
+                Quaternion.identity, unit.Faction.GhostBuildingParent);
+
+            toBuild = true;
+            newBuilding = buildingList[i]; //Set prefab into new building
+            showGhost = true;
+        }
+    }
+    
+    private void GhostBuildingFollowsMouse()
+    {
+        if (showGhost)
+        {
+            Ray ray = CameraController.instance.Cam.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit, 1000, LayerMask.GetMask("Ground")))
+            {
+                if (ghostBuilding != null)
+                {
+                    ghostBuilding.transform.position = new Vector3(hit.point.x, 0, hit.point.z);
+                }
+            }
+        }
+    }
+    
+    private void CancelToBuild()
+    {
+        toBuild = false;
+        showGhost = false;
+
+        newBuilding = null;
+        Destroy(ghostBuilding);
+        ghostBuilding = null;
+        //Debug.Log("Cancel Building");
+    }
+    
+    public void BuilderStartFixBuilding(GameObject target)
+    {
+        inProgressBuilding = target;        
+        unit.SetState(UnitState.MoveToBuild);
+    }
+    
+    private void StartConstruction(GameObject buildingObj)
+    {
+        BuilderStartFixBuilding(buildingObj);
+    }
+    
+    
 }
