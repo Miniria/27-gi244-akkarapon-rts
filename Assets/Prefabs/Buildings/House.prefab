@@ -102,7 +102,7 @@ MonoBehaviour:
   curUnitWaitTime: 0
   isFunctional: 1
   isHQ: 0
-  intoTheGround: 5
+  intoTheGround: 2
 --- !u!65 &2535216998887614080
 BoxCollider:
   m_ObjectHideFlags: 0
