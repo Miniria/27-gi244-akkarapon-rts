@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9738a0fa7725fe4394cf9f27e17bcf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nation: 0
+  nation: 2
   food: 0
   wood: 0
   gold: 0
@@ -59,6 +59,7 @@ MonoBehaviour:
   buildingsParent: {fileID: 1679829533408858782}
   ghostBuildingParent: {fileID: 5758525441831573196}
   startPosition: {fileID: 7147265264422409491}
+  newResourceRange: 50
 --- !u!1 &506995083258466993
 GameObject:
   m_ObjectHideFlags: 0

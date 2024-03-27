@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5050780387326979362}
   - component: {fileID: -5462012479784162123}
   m_Layer: 0
-  m_Name: Britain
+  m_Name: France
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9738a0fa7725fe4394cf9f27e17bcf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nation: 1
+  nation: 3
   food: 0
   wood: 0
   gold: 0

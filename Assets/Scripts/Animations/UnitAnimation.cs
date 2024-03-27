@@ -27,7 +27,6 @@ public class UnitAnimation : MonoBehaviour
         anim.SetBool("IsIdle", false);
         anim.SetBool("IsMove", false);
         anim.SetBool("IsAttack", false);
-        anim.SetBool("IsBuildProgress", false);
         
         switch (u.State)
         {
@@ -37,11 +36,11 @@ public class UnitAnimation : MonoBehaviour
             case UnitState.Move:
                 anim.SetBool("IsMove", true);
                 break;
-            case UnitState.Attack:
+            case UnitState.AttackUnit:
                 anim.SetBool("IsAttack", true);
                 break;
             case UnitState.BuildProgress:
-                anim.SetBool("IsBuildProgress", true);
+                anim.SetBool("IsAttack", true);
                 break;
             case UnitState.MoveToBuild:
                 anim.SetBool("IsMove", true);
