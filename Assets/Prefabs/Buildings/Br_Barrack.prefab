@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   structureName: Br_Barrack
-  structurePic: {fileID: 21300000, guid: 6d2fc9456496cc14ca4ab3477615851f, type: 3}
+  structurePic: {fileID: 0}
   curHP: 100
   maxHP: 100
   faction: {fileID: -5462012479784162123, guid: 03c038ee146f7f84d9491cca1247a959, type: 3}

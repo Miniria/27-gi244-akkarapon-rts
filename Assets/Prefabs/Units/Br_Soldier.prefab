@@ -5144,7 +5144,7 @@ GameObject:
   - component: {fileID: 6150415434879830677}
   - component: {fileID: 3988749259294268365}
   m_Layer: 6
-  m_Name: BritainSoldier
+  m_Name: Br_Soldier
   m_TagString: Unit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5272,7 +5272,7 @@ MonoBehaviour:
   visualRange: 20
   weaponRange: 15
   state: 0
-  faction: {fileID: 0}
+  faction: {fileID: -5462012479784162123, guid: 03c038ee146f7f84d9491cca1247a959, type: 3}
   selectionVisual: {fileID: 5025643254351331391}
   unitCost:
     food: 50

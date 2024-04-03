@@ -228,11 +228,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df1b68b4d8eb8345912611b27895c00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  structureName: FortTower
+  structureName: BrFortTower
   structurePic: {fileID: 0}
   curHP: 100
   maxHP: 100
-  faction: {fileID: 0}
+  faction: {fileID: -5462012479784162123, guid: 03c038ee146f7f84d9491cca1247a959, type: 3}
   selectionVisual: {fileID: 8060131342805344322}
   structureCost:
     food: 0

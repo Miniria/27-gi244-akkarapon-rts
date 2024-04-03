@@ -213,6 +213,28 @@ public class Faction : MonoBehaviour
         MainUi.instance.UpdateAllResource(this);
     }
     
+    public bool CheckUnitCost(int i)
+    {
+        Unit unit = unitPrefabs[i].GetComponent<Unit>();
+
+        if (unit == null)
+            return false;
+
+        if (food < unit.UnitCost.food)
+            return false;
+
+        if (wood < unit.UnitCost.wood)
+            return false;
+
+        if (gold < unit.UnitCost.gold)
+            return false;
+
+        if (stone < unit.UnitCost.stone)
+            return false;
+
+        return true;
+    }
+    
     
     
     
