@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8422116968578225315}
   - component: {fileID: 8956038924397899885}
   m_Layer: 2
-  m_Name: House_Ghost
+  m_Name: Br_House_Ghost
   m_TagString: GhostBuilding
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

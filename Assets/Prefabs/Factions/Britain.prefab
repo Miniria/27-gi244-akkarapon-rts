@@ -60,6 +60,8 @@ MonoBehaviour:
   ghostBuildingParent: {fileID: 5758525441831573196}
   startPosition: {fileID: 7147265264422409491}
   newResourceRange: 50
+  buildingPrefabs: []
+  unitPrefabs: []
 --- !u!1 &506995083258466993
 GameObject:
   m_ObjectHideFlags: 0
