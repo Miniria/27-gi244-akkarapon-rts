@@ -20,6 +20,10 @@ PrefabInstance:
       propertyPath: structureName
       value: Fr_Barrack
       objectReference: {fileID: 0}
+    - target: {fileID: 6262472258222963265, guid: d54e45eeddf8210429bdb3b7aa474c42, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce19f20337e1d6545bddd9bc3ba7de65, type: 2}
     - target: {fileID: 6924996812464630111, guid: d54e45eeddf8210429bdb3b7aa474c42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -60,6 +64,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7582998374441088829, guid: d54e45eeddf8210429bdb3b7aa474c42, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce19f20337e1d6545bddd9bc3ba7de65, type: 2}
+    - target: {fileID: 8968166886035087151, guid: d54e45eeddf8210429bdb3b7aa474c42, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce19f20337e1d6545bddd9bc3ba7de65, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

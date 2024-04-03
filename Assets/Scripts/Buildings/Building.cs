@@ -38,6 +38,12 @@ public class Building : Structure
     [SerializeField] private float intoTheGround = 5f;
     public float IntoTheGround { get { return intoTheGround; } }
     
+    private float timer = 0f; //Constructing timer
+    public float Timer { get { return timer; } set { timer = value; } }
+    private float waitTime = 0.5f; //How fast it will be construct, higher is longer
+    public float WaitTime { get { return waitTime; } set { waitTime = value; } }
+    
+    
     public bool IsFunctional
     {
         get { return isFunctional; }
@@ -141,9 +147,18 @@ public class Building : Structure
             SelectionVisual.SetActive(flag);
     }
     
-    private float timer = 0f; //Constructing timer
-    public float Timer { get { return timer; } set { timer = value; } }
-    private float waitTime = 0.5f; //How fast it will be construct, higher is longer
-    public float WaitTime { get { return waitTime; } set { waitTime = value; } }
+    
+    
+    public int CheckNumInRecruitList(int id)
+    {
+        int num = 0;
+
+        foreach (Unit u in recruitList)
+        {
+            if (id == u.ID)
+                num++;
+        }
+        return num;
+    }
     
 }

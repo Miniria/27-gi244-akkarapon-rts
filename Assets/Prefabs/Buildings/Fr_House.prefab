@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fr_House
       objectReference: {fileID: 0}
+    - target: {fileID: 4715381092157818593, guid: d1811bb0dfd006d4db8eb9a625c46f0c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce19f20337e1d6545bddd9bc3ba7de65, type: 2}
     - target: {fileID: 4749504387127144446, guid: d1811bb0dfd006d4db8eb9a625c46f0c, type: 3}
       propertyPath: faction
       value: 
