@@ -153,7 +153,7 @@ MonoBehaviour:
     wood: 5
     gold: 30
     stone: 10
-  unitWaitTime: 0.1
+  unitWaitTime: 0.01
   isBuilder: 1
   builder: {fileID: 0}
   isWorker: 1
