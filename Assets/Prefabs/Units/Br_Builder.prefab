@@ -149,7 +149,7 @@ MonoBehaviour:
   faction: {fileID: -5462012479784162123, guid: 03c038ee146f7f84d9491cca1247a959, type: 3}
   selectionVisual: {fileID: 7986762831164794384}
   unitCost:
-    food: 200
+    food: 50
     wood: 5
     gold: 30
     stone: 10

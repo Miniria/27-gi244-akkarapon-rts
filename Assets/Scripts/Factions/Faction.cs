@@ -53,6 +53,9 @@ public class Faction : MonoBehaviour
     [SerializeField] private GameObject[] buildingPrefabs;
     public GameObject[] BuildingPrefabs { get { return buildingPrefabs; } }
 
+    [SerializeField] private GameObject[] ghostBuildingPrefabs;
+    public GameObject[] GhostBuildingPrefabs { get { return ghostBuildingPrefabs; } }
+
     [SerializeField] private GameObject[] unitPrefabs;
     public GameObject[] UnitPrefabs { get { return unitPrefabs; } }
     
@@ -127,6 +130,9 @@ public class Faction : MonoBehaviour
     {
         foreach (Building b in aliveBuildings)
         {
+            if (b == null)
+                continue;
+            
             if (b.IsHQ)
                 return b.SpawnPoint.position;
         }
@@ -209,8 +215,9 @@ public class Faction : MonoBehaviour
             unitLimit = 100;
         else if (unitLimit < 0)
             unitLimit = 0;
-
-        MainUi.instance.UpdateAllResource(this);
+        
+        if (this == GameManager.instance.MyFaction)
+            MainUi.instance.UpdateAllResource(this);
     }
     
     public bool CheckUnitCost(int i)
@@ -242,7 +249,7 @@ public class Faction : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        UpdateHousingLimit();
     }//start
 
     // Update is called once per frame

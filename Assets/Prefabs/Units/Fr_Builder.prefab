@@ -64,6 +64,38 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 89a8c4d05aebfbd40ad71b8f56d3f20f, type: 2}
+    - target: {fileID: 2494034843689044513, guid: b9a15213dd3d2974e9ca074651a5e3e0, type: 3}
+      propertyPath: buildingList.Array.data[0]
+      value: 
+      objectReference: {fileID: 1791245317128369289, guid: 28a5247be8bb7884a8c9ac95bee8f49d, type: 3}
+    - target: {fileID: 2494034843689044513, guid: b9a15213dd3d2974e9ca074651a5e3e0, type: 3}
+      propertyPath: buildingList.Array.data[1]
+      value: 
+      objectReference: {fileID: 1626112280473231842, guid: f928890ee674cfe408ea1631e13920d7, type: 3}
+    - target: {fileID: 2494034843689044513, guid: b9a15213dd3d2974e9ca074651a5e3e0, type: 3}
+      propertyPath: buildingList.Array.data[2]
+      value: 
+      objectReference: {fileID: 7397915057179661766, guid: 0a08acdb23527fe489916bb28f6fc0e7, type: 3}
+    - target: {fileID: 2494034843689044513, guid: b9a15213dd3d2974e9ca074651a5e3e0, type: 3}
+      propertyPath: buildingList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1279055332046929872, guid: a16bf76ff81e9244b9649b4f6986b1c4, type: 3}
+    - target: {fileID: 2494034843689044513, guid: b9a15213dd3d2974e9ca074651a5e3e0, type: 3}
+      propertyPath: ghostBuildingList.Array.data[0]
+      value: 
+      objectReference: {fileID: 7213836370428951466, guid: a890401bb5d96234e907da6377bdce9d, type: 3}
+    - target: {fileID: 2494034843689044513, guid: b9a15213dd3d2974e9ca074651a5e3e0, type: 3}
+      propertyPath: ghostBuildingList.Array.data[1]
+      value: 
+      objectReference: {fileID: 7825866275440778871, guid: 84a8c22d81ea85a46b8687849e72c9ed, type: 3}
+    - target: {fileID: 2494034843689044513, guid: b9a15213dd3d2974e9ca074651a5e3e0, type: 3}
+      propertyPath: ghostBuildingList.Array.data[2]
+      value: 
+      objectReference: {fileID: 5178447469100672702, guid: 8ea692b05a14840428c2b47f26ea6c19, type: 3}
+    - target: {fileID: 2494034843689044513, guid: b9a15213dd3d2974e9ca074651a5e3e0, type: 3}
+      propertyPath: ghostBuildingList.Array.data[3]
+      value: 
+      objectReference: {fileID: 8169996900695929743, guid: 76cacd0918cab1542997fedb461942c7, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

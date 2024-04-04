@@ -20,6 +20,10 @@ PrefabInstance:
       propertyPath: faction
       value: 
       objectReference: {fileID: -5462012479784162123, guid: d04c6b407d014fc4794245391244b1d9, type: 3}
+    - target: {fileID: 4749504387127144446, guid: d1811bb0dfd006d4db8eb9a625c46f0c, type: 3}
+      propertyPath: structureName
+      value: FrHouse
+      objectReference: {fileID: 0}
     - target: {fileID: 6924996812464630111, guid: d1811bb0dfd006d4db8eb9a625c46f0c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
