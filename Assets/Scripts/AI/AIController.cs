@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AiControll : MonoBehaviour
+public class AIController : MonoBehaviour
 {
     
     public float randomRate = 0.3f;
