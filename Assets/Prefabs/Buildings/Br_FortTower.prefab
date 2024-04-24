@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 6657804034430591432}
   - component: {fileID: 3105886460866178031}
   - component: {fileID: 5835763048979137478}
-  - component: {fileID: 4080131283930786733}
+  - component: {fileID: -7299897137706385526}
   m_Layer: 7
   m_Name: Br_FortTower
   m_TagString: Building
@@ -260,7 +260,7 @@ MonoBehaviour:
   shootRange: 50
   shootDamage: 10
   state: 0
---- !u!114 &4080131283930786733
+--- !u!114 &-7299897137706385526
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

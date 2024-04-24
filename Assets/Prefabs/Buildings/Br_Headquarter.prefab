@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 2535216998887614080}
   - component: {fileID: 4939083028052012761}
   - component: {fileID: 8422116968578225315}
-  - component: {fileID: -6275786169519484398}
+  - component: {fileID: -5192706496010379251}
   m_Layer: 7
   m_Name: Br_Headquarter
   m_TagString: Building
@@ -171,7 +171,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &-6275786169519484398
+--- !u!114 &-5192706496010379251
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
