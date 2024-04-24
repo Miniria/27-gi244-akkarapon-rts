@@ -9,7 +9,26 @@ public class ResourceManager : MonoBehaviour
 
     [SerializeField]
     private Transform woodTreeParent;
+    
+    [SerializeField]
+    private GameObject[] appleTreePrefab;
 
+    [SerializeField]
+    private Transform appleTreeParent;
+
+    [SerializeField]
+    private GameObject[] stoneRockPrefab;
+
+    [SerializeField]
+    private Transform stoneRockParent;
+    
+    [SerializeField]
+    private GameObject[] goldPilePrefab;
+
+    [SerializeField]
+    private Transform goldPileParent;
+    
+    
     [SerializeField]
     private ResourceSource[] resources;
     public ResourceSource[] Resources
